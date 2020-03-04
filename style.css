@@ -1,0 +1,44 @@
+article{
+    padding: 3rem;
+}
+.portada{
+    text-align: center;
+}
+.images-grid{
+    margin: auto;
+    position: relative;
+}
+
+.super-message{
+    transform-origin: center center;
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    font-size: xx-large;
+    color: purple;
+}
+
+.images-grid>div{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.images-grid>div>div{
+    padding: 1rem;
+    width: 30%;
+}
+
+.images-grid>div>div>img{
+    width: 100%;
+}
+.highlight{
+    background-color: yellow;
+}
+img{
+    width: 100%;
+}
+table, td {
+  border: 1px solid black;
+}
